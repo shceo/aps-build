@@ -1,6 +1,6 @@
 {
-    "name": "aps",
-    "short_name": "aps",
+    "name": "aps_express",
+    "short_name": "aps_express",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
