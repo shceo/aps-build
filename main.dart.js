@@ -51167,7 +51167,7 @@ s.fr=!0},
 $S:0}
 A.aJc.prototype={
 $1(a){var s=t.l8
-return A.V(new A.Y(A.a(["AA","AB","AC","AD","AE"],t.s),new A.aIS(),s),!0,s.h("an.E"))},
+return A.V(new A.Y(A.a(["AA","AB","AC","AD","AE","KA","FA"],t.s),new A.aIS(),s),!0,s.h("an.E"))},
 $S:120}
 A.aIS.prototype={
 $1(a){var s=null
@@ -51594,11 +51594,11 @@ r.push(new A.hM(1,B.cf,A.Fc(A.V(new A.Y(s,new A.aLq(o,this.c),q),!0,q.h("an.E"))
 return A.cA(r,B.F,B.w,B.aC)},
 $S:237}
 A.aLp.prototype={
-$1(a){var s=J.ar(a,"russian")
+$1(a){var s=J.ar(a,"uzbek")
 return B.c.n(A.ba(s==null?"":s).toLowerCase(),this.a.toLowerCase())},
 $S:129}
 A.aLq.prototype={
-$1(a){var s=null,r=J.ar(a,"russian"),q=A.ba(r==null?"":r)
+$1(a){var s=null,r=J.ar(a,"uzbek"),q=A.ba(r==null?"":r)
 return A.q4(!1,s,s,s,!0,s,!0,!1,s,s,new A.aLo(this.a,this.b,q),!1,s,s,s,s,s,A.a6(q,s,s,s,s,s,s,s),s,s)},
 $S:192}
 A.aLo.prototype={
