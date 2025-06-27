@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="ru">
 <head>
-  <!-- Базовый путь для корректного отображения при деплое не в корень -->
   <base href="/">
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Оптимизация под мобильные устройства -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Базовый viewport из Flutter -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Основные мета-теги SEO -->
-  <title>APS EXPRESS – международная курьерская служба из Турции в Узбекистан</title>
+  <!-- SEO: заголовок и описание -->
+  <title>APS EXPRESS – международная курьерская служба</title>
   <meta name="description"
-        content="APS EXPRESS – надёжная международная курьерская служба между Турцией и Узбекистаном. Отслеживание посылок в реальном времени, лучшие тарифы от $1.90/кг до $2.90/кг и круглосуточная поддержка.">
-  <meta name="keywords"
-        content="APS EXPRESS, курьерская служба, доставка из Турции, доставка в Узбекистан, отслеживание посылок, тарифы за кг, международная логистика">
+        content="APS EXPRESS – надёжная доставка посылок между Турцией и Узбекистаном от $1.90/кг до $2.90/кг. Отслеживание в реальном времени и круглосуточная поддержка.">
+
+  <!-- Open Graph для соцсетей -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="APS EXPRESS – международная курьерская служба">
   <meta property="og:description"
-        content="Надёжная и быстрая доставка посылок между Турцией и Узбекистаном: отслеживание онлайн, выгодные тарифы и круглосуточная поддержка.">
+        content="Доставка из Турции в Узбекистан: выгодные тарифы, онлайн-отслеживание, 24/7 поддержка.">
   <meta property="og:url" content="https://aps-express.uz/">
   <meta property="og:image" content="https://aps-express.uz/assets/og-image.png">
 
@@ -26,37 +22,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="APS EXPRESS – международная курьерская служба">
   <meta name="twitter:description"
-        content="Доставка из Турции в Узбекистан от $1.90/кг до $2.90/кг, онлайн-отслеживание и круглосуточная поддержка.">
+        content="Доставка из Турции в Узбекистан: выгодные тарифы, онлайн-отслеживание, 24/7 поддержка.">
   <meta name="twitter:image" content="https://aps-express.uz/assets/twitter-card.png">
 
   <!-- Канонический URL -->
   <link rel="canonical" href="https://aps-express.uz/">
 
-  <!-- JSON-LD для структурированных данных (Organization) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "APS EXPRESS",
-    "url": "https://aps-express.uz/",
-    "logo": "https://aps-express.uz/assets/logo.png",
-    "sameAs": [
-      "https://facebook.com/aps-express",
-      "https://instagram.com/aps_express",
-      "https://t.me/aps_express"
-    ]
-  }
-  </script>
-
-  <!-- Иконки и PWA -->
+  <!-- PWA и иконки (оставляем из Flutter) -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="favicon.png"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="APS EXPRESS">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <link rel="icon" type="image/png" href="favicon.png"/>
-  <link rel="manifest" href="manifest.json">
 </head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
-</html>
