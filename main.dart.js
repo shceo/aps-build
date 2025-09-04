@@ -57231,7 +57231,7 @@ m=B.c.aM(h.as.a.a)
 if(m.length!==0)o.push(m)
 i=B.b.bm(o,", ")
 o=t.N
-A.b43(p.b,A.at(["invoice_no",B.f.l(h.a.c),"order_code",h.e.a.a,"sender_name",h.f.a.a,"sender_tel","+90"+h.r.a.a,"receiver_name",h.w.a.a,"receiver_tel","+998"+h.x.a.a,"passport",h.to+h.z.a.a,"birth_date",h.Q.a.a,"address",i,"product_details",B.b.bm(n,"\n"),"brutto",h.at.a.a,"total_value",h.ax.a.a],o,o))
+A.b43(p.b,A.at(["invoice_no",B.f.l(h.a.c),"order_code",h.e.a.a,"sender_name",h.f.a.a,"sender_tel","+90"+h.r.a.a,"receiver_name",h.w.a.a,"receiver_tel","+998"+h.x.a.a,"passport",h.to+h.z.a.a,"birth_date",h.Q.a.a,"address",i,"product_details",B.b.bm(n,"\n"),"brutto",h.at.a.a,"total_value",h.ax.a.a,"payment_status",h.ay.a.a],o,o))
 case 1:return A.w(q,r)}})
 return A.x($async$$0,r)},
 $S:5}
