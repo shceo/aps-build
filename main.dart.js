@@ -57669,7 +57669,7 @@ while(true)switch(s){case 0:o=$.bdf
 if(o!=null){q=o
 s=1
 break}s=3
-return A.p(A.biS(A.ej("https://khaledo.pythonanywhere.com/products/lists/",0,null)),$async$rW)
+return A.p(A.biS(A.ej("https://khaledo.pythonanywhere.com/users/products/lists/",0,null)),$async$rW)
 case 3:p=b
 if(p.b!==200)throw A.f(A.ep("Failed to load product list"))
 q=$.bdf=J.hD(B.aE.ex(0,A.xn(A.xj(p.e)).ex(0,p.w)),t.P)
