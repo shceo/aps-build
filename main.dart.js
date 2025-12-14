@@ -9336,21 +9336,21 @@ case 1:return A.x(q,r)}})
 return A.y($async$aie,r)},
 b9T(a){var s=0,r=A.z(t.N),q
 var $async$b9T=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:q=A.RL("http://46.62.234.36:8001/docs/api/original-excel/",a)
+while(true)switch(s){case 0:q=A.RL("https://twiv.uz/docs/api/original-excel/",a)
 s=1
 break
 case 1:return A.x(q,r)}})
 return A.y($async$b9T,r)},
 b9S(a){var s=0,r=A.z(t.N),q
 var $async$b9S=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:q=A.RL("http://46.62.234.36:8001/docs/api/manifest-excel/",a)
+while(true)switch(s){case 0:q=A.RL("https://twiv.uz/docs/api/manifest-excel/",a)
 s=1
 break
 case 1:return A.x(q,r)}})
 return A.y($async$b9S,r)},
 b9U(a){var s=0,r=A.z(t.N),q
 var $async$b9U=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:q=A.RL("http://46.62.234.36:8001/docs/api/summary-excel/",a)
+while(true)switch(s){case 0:q=A.RL("https://twiv.uz/docs/api/summary-excel/",a)
 s=1
 break
 case 1:return A.x(q,r)}})
@@ -9369,7 +9369,7 @@ n=B.aE.Ao(0,A.xv(A.xr(k.e)).ey(0,k.w),null)
 k=J.W(n,"message")
 m=k==null?J.W(n,"detail"):k
 o=m==null?o:m}catch(i){}throw A.f(A.er(B.c.W("Server error: ",o)))}k=p
-q="http://46.62.234.36:8001"+A.R(J.bnr(J.Sn(t.P.a(B.aE.Ao(0,A.xv(A.xr(k.e)).ey(0,k.w),null))),new A.b3X()))
+q="https://twiv.uz"+A.R(J.bnr(J.Sn(t.P.a(B.aE.Ao(0,A.xv(A.xr(k.e)).ey(0,k.w),null))),new A.b3X()))
 s=1
 break
 case 1:return A.x(q,r)}})
@@ -37020,7 +37020,7 @@ b4G(a,b){return A.bBu(a,b)},
 bBu(a,b){var s=0,r=A.z(t.H),q=1,p=[],o,n,m,l,k,j,i,h
 var $async$b4G=A.v(function(c,d){if(c===1){p.push(d)
 s=q}while(true)switch(s){case 0:q=3
-k=A.ek("http://46.62.234.36:8001/docs/download-invoice/",0,null)
+k=A.ek("https://twiv.uz/docs/download-invoice/",0,null)
 j=t.N
 j=A.ar(["Content-Type","application/json"],j,j)
 s=6
@@ -37028,7 +37028,7 @@ return A.p(A.bau(k,B.aE.vK(b,null),j),$async$b4G)
 case 6:o=d
 if(o.b===200){k=o
 n=A.R(J.W(B.aE.Ao(0,A.xv(A.xr(k.e)).ey(0,k.w),null),"invoice_url"))
-m="http://46.62.234.36:8001"+A.o(n)
+m="https://twiv.uz"+A.o(n)
 k=window
 k.toString
 B.lL.a7O(k,m,"_blank")}else a.a3(t.Q).f.hc(A.kT(null,null,null,null,null,B.v,null,A.a2("Export failed: "+o.b,null,null,null,null,null,null,null,null,null,null,null,null),null,B.bf,null,null,null,null,null,null,null,null,null))
@@ -54312,7 +54312,7 @@ A.za.prototype={
 Hi(){var s=0,r=A.z(t.YM),q,p,o,n
 var $async$Hi=A.v(function(a,b){if(a===1)return A.w(b,r)
 while(true)switch(s){case 0:s=3
-return A.p(A.bjn(A.ek("http://46.62.234.36:8001/convert/",0,null)),$async$Hi)
+return A.p(A.bjn(A.ek("https://twiv.uz/convert/",0,null)),$async$Hi)
 case 3:o=b
 n=o.b
 if(n!==200)throw A.f(A.er("Failed to load exchange rates (status "+n+")"))
@@ -58263,7 +58263,7 @@ while(true)switch(s){case 0:o=$.bdQ
 if(o!=null){q=o
 s=1
 break}s=3
-return A.p(A.bjn(A.ek("http://46.62.234.36:8001/users/products/lists/",0,null)),$async$rY)
+return A.p(A.bjn(A.ek("https://twiv.uz/users/products/lists/",0,null)),$async$rY)
 case 3:p=b
 if(p.b!==200)throw A.f(A.er("Failed to load product list"))
 q=$.bdQ=J.i5(B.aE.ey(0,A.xv(A.xr(p.e)).ey(0,p.w)),t.P)
@@ -58573,7 +58573,7 @@ p=4
 m=A.b75(null)
 f=t.N
 s=7
-return A.p(m.a81("http://46.62.234.36:8001/auth/login/",A.ar(["phone",h.a.a,"password",g.a.a],f,f),t.z),$async$re)
+return A.p(m.a81("https://twiv.uz/auth/login/",A.ar(["phone",h.a.a,"password",g.a.a],f,f),t.z),$async$re)
 case 7:l=b
 A.jl("\ud83d\udfe2 \u041e\u0442\u0432\u0435\u0442 \u0441\u0435\u0440\u0432\u0435\u0440\u0430: "+A.o(l.a))
 s=J.d(J.W(l.a,"status"),"ok")?8:10
@@ -58695,7 +58695,7 @@ s.e=!s.e},
 $S:0}
 A.xL.prototype={
 ah(){var s=$.am()
-return new A.LV(new A.bw(null,t.am),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.SI(A.b75(A.b6A("http://46.62.234.36:8001/",B.jv,B.jv))))},
+return new A.LV(new A.bw(null,t.am),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.SI(A.b75(A.b6A("https://twiv.uz/",B.jv,B.jv))))},
 aIg(){return this.c.$0()}}
 A.LV.prototype={
 o2(){var s=0,r=A.z(t.H),q,p=this,o,n,m,l,k
@@ -58764,7 +58764,7 @@ return A.y($async$$0,r)},
 $S:107}
 A.Jf.prototype={
 ah(){var s=$.am()
-return new A.OR(new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),B.te,new A.SI(A.b75(A.b6A("http://46.62.234.36:8001/",B.jv,B.jv))))},
+return new A.OR(new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),new A.c9(B.ac,s),B.te,new A.SI(A.b75(A.b6A("https://twiv.uz/",B.jv,B.jv))))},
 aII(){return this.d.$0()}}
 A.OR.prototype={
 av(){this.b5()
