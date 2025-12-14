@@ -37020,7 +37020,7 @@ b4G(a,b){return A.bBu(a,b)},
 bBu(a,b){var s=0,r=A.z(t.H),q=1,p=[],o,n,m,l,k,j,i,h
 var $async$b4G=A.v(function(c,d){if(c===1){p.push(d)
 s=q}while(true)switch(s){case 0:q=3
-k=A.ek("https://twiv.uz/docs/download-invoice/",0,null)
+k=A.ek("https://twiv.uz/download-invoice/",0,null)
 j=t.N
 j=A.ar(["Content-Type","application/json"],j,j)
 s=6
@@ -54312,7 +54312,7 @@ A.za.prototype={
 Hi(){var s=0,r=A.z(t.YM),q,p,o,n
 var $async$Hi=A.v(function(a,b){if(a===1)return A.w(b,r)
 while(true)switch(s){case 0:s=3
-return A.p(A.bjn(A.ek("https://twiv.uz/convert/",0,null)),$async$Hi)
+return A.p(A.bjn(A.ek("https://twiv.uz/users/convert/",0,null)),$async$Hi)
 case 3:o=b
 n=o.b
 if(n!==200)throw A.f(A.er("Failed to load exchange rates (status "+n+")"))
