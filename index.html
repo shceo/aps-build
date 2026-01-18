@@ -30,6 +30,13 @@
   <meta name="google-signin-client_id" content="REPLACE_WITH_YOUR_GOOGLE_OAUTH_CLIENT_ID">
 </head>
 <body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('firebase-messaging-sw.js');
+      });
+    }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
