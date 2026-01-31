@@ -66188,13 +66188,13 @@ G(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=A.a5(a,B.t,t.J)
 f.toString
 s=A.bk(a,g,t.l).w.a
 r=s.a
-q=r>=900
+q=r>=1100
 p=r<600
 o=p?B.d.dJ(r-32,320,r-24):B.d.dJ(r*0.64,560,900)
 r=s.b
 n=p?r*0.82:r*0.78
 r=q?2:1
-m=q?1.2:1
+m=q?1.25:1
 l=A.a3(22)
 k=A.dm(B.bl,1)
 j=t.p
