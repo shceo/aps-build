@@ -33,7 +33,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('firebase-messaging-sw.js');
+        const messagingSwUrl = new URL(
+          'firebase-messaging-sw.js',
+          document.baseURI,
+        ).toString();
+        navigator.serviceWorker.register(messagingSwUrl).catch(function (error) {
+          console.warn('Firebase messaging service worker registration failed:', error);
+        });
       });
     }
   </script>
