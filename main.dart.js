@@ -69003,7 +69003,7 @@ $0(){A.bq(this.b,!1).dz()
 this.a.tM(B.wf)},
 $S:0}
 A.b3C.prototype={
-$2(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a="assets/images/instruction/main.jpg",a0=this.b,a1=a0||a6.b<980,a2=a1?16:32,a3=a0?120:40,a4=A.bK6(a5.V(t.E).r.f.gd5(0))
+$2(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a="assets/images/landing/hero_logistics.jpg",a0=this.b,a1=a0||a6.b<980,a2=a1?16:32,a3=a0?120:40,a4=A.bK6(a5.V(t.E).r.f.gd5(0))
 a0=a1?16:24
 s=A.R(20)
 r=a1?1.6:1.25
